@@ -25,7 +25,7 @@ if __name__ == '__main__':
     sheetPosition = {'row':1, 'col':0}
     pn = 1
     for x in range(pn, 31, 1):
-        path = 'd://PyCharmProject//lagou_scraping//Python-' + str(pn) + '.json'
+        path = 'd://PyCharmProject//lagou_scraping//Python_search_result//Python-' + str(pn) + '.json'
         dictory = read_json(path)
         row = sheetPosition['row']
         col = sheetPosition['col']
