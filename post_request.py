@@ -25,7 +25,7 @@ if __name__ == '__main__':
             'pn': pn
         }
         req = post_request(url, para, headers)
-        path = 'd://PyCharmProject//lagou_scraping//Python_search_result//'
+        path = 'D://GitHub//lagou_scraping//Python_search_result//'
         f = open(path + para['kd'] + '-' + str(para['pn']) + '.json', 'wb')
         f.write(req.content)
         f.close()

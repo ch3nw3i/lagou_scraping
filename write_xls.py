@@ -25,7 +25,7 @@ if __name__ == '__main__':
     sheetPosition = {'row':1, 'col':0}
     pn = 1
     for x in range(pn, 31, 1):
-        path = 'd://PyCharmProject//lagou_scraping//Python_search_result//Python-' + str(pn) + '.json'
+        path = 'D://GitHub//lagou_scraping//Python_search_result//Python-' + str(pn) + '.json'
         dictory = read_json(path)
         row = sheetPosition['row']
         col = sheetPosition['col']
@@ -57,4 +57,4 @@ if __name__ == '__main__':
             col = 0
             row = row + 1
             sheetPosition = {'row': row, 'col': col}
-    xls.save('d://PyCharmProject//lagou_scraping//lagou_python.xls')
+    xls.save('D://GitHub//lagou_scraping//lagou_python.xls')
